@@ -33,6 +33,16 @@
       font-size: 15px
 }
 
+.course-title {
+    color:#3d9386; 
+    margin-bottom: 10px; 
+    max-width: 60%;
+}
+
+@media all and (max-width:480px) {
+   .btn-xs-block { width: 100%; display:block; }
+}   
+
 </style>
 
 </head>
@@ -67,12 +77,12 @@
 
                             </p>
                             <p "style:font-size:7px"> Be Audacious ● Take the initiative ● Take Giant Strides Only </p>
-                            <a class="btn btn--primary type--uppercase" href=https://apply.favcode54.org/" style="">
+                            <a class="btn btn--primary btn-xs-block type--uppercase" href=https://apply.favcode54.org/" style="">
                                 <span class="btn__text">
                                     Apply Now
                                 </span>
                             </a>
-                            <a class="btn btn--primary type--uppercase" href="https://favcode54.org/about" style="background-color: #e1b12c; border-color:#e1b12c">
+                            <a class="btn btn--primary btn-xs-block type--uppercase" href="https://favcode54.org/about" style="background-color: #e1b12c; border-color:#e1b12c">
                                 <span class="btn__text">
                                     Learn More
                                 </span>
@@ -126,14 +136,14 @@
 
         <section>
             <div class="container">
-                <h3 style="background-color:#428378; padding: 0 7px; border-radius:5px; color:white">Available Learning
+                <h3 style="background-color:#428378; padding: 5px 15px; color:white">Available Learning
                     Tracks</h3>
                 <div class="masonry__container row masonry--active">
                     <div class="col-md-6 masonry__item">
                         <div class="feature feature--featured boxed boxed--border bg--seondary">
                             <span class="label" style="background: #ff4536; font-size: small">Closed</span>
-                            <h4 style="color:#3d9386; margin-bottom: 10px">Wordpress For Developers &nbsp; </h4>
-                            <p style="max-width: 90%">
+                            <h4 class="course-title">Wordpress For Developers &nbsp; </h4>
+                            <p style="max-width: 80%; margin: 15px 0px;">
                                 <span class="content">Installation</span>
                                 <span class="content">Themes</span>
                                 <span class="content">Plugins</span>
@@ -153,8 +163,8 @@
                     <div class="col-md-6 masonry__item">
                         <div class="feature feature--featured boxed boxed--border bg--seondary">
                             <span class="label" style="font-size: small">In Progress</span>
-                            <h4 style="color:#3d9386; margin-bottom: 10px">Frontend Development &nbsp; </h4>
-                            <p style="max-width: 90%">
+                            <h4 class="course-title" style="">Frontend Development &nbsp; </h4>
+                            <p style="max-width: 100%; margin: 15px 0px">
                                 <span class="content">HTML</span>
                                 <span class="content">CSS</span>
                                 <span class="content">Javascript</span>
