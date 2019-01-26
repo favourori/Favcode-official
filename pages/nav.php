@@ -20,7 +20,7 @@
         <!--end of container-->
     </div>
     <!--end bar-->
-    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hidden-sm bar--absolute bar--transparent"  data-scroll-class="200px:pos-fixed" style="padding: 30px 0;">
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hidden-sm bar--absolute bar--transparent" data-scroll-class="200px:pos-fixed" style="padding: 20px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-md-1 col-sm-2 hidden-xs">
@@ -32,7 +32,7 @@
                     </div>
                     <!--end module-->
                 </div>
-                <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm" style="margin-top: 3px">
                     <div class="bar__module">
                         <ul class="menu-horizontal text-center">
                             <li class="hidden">
