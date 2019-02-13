@@ -39,7 +39,7 @@
     max-width: 60%;
 }
 
-@media all and (max-width:480px) {
+@media all and (max-width:900px) {
    .btn-xs-block { width: 100%; display:block; }
 }   
 
@@ -66,7 +66,7 @@
             </div>
             <div class="container pos-vertical-center">
                 <div class="row">
-                    <div class="col-md-5 col-sm-7">
+                    <div class="col-md-7 col-sm-12">
                         <div class="switchable__text">
                             <h2>
                                 <span style="font-weight: 900"> Learn how to code for free</span></h2>
@@ -77,7 +77,7 @@
 
                             </p>
                             <p "style:font-size:7px"> Be Audacious ● Take the initiative ● Take Giant Strides Only </p>
-                            <a class="btn btn--primary btn-xs-block type--uppercase" href=https://apply.favcode54.org/" style="">
+                            <a class="btn btn--primary btn-xs-block type--uppercase" href="https://apply.favcode54.org/" style="">
                                 <span class="btn__text">
                                     Apply Now
                                 </span>
