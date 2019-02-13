@@ -68,7 +68,7 @@
             </div>
             <div class="container pos-vertical-center">
                 <div class="row">
-                    <div class="col-md-12 col-lg-6 col-sm-12">
+                    <div class="col-md-12 col-lg-7 col-sm-12">
                         <div class="switchable__text">
                             <h2>
                                 <span style="font-weight: 900"> Learn how to code for free</span></h2>
