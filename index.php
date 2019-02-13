@@ -39,10 +39,12 @@
     max-width: 60%;
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:500px) {
    .btn-xs-block { width: 100%; display:block; }
 }   
-
+@media all and (max-width:1024px) {
+   .btn-xs-block { width: 100%; display:block; margin-left:0 !important; margin-top: 10px}
+} 
 </style>
 
 </head>
@@ -66,7 +68,7 @@
             </div>
             <div class="container pos-vertical-center">
                 <div class="row">
-                    <div class="col-md-7 col-sm-12">
+                    <div class="col-md-12 col-lg-6 col-sm-12">
                         <div class="switchable__text">
                             <h2>
                                 <span style="font-weight: 900"> Learn how to code for free</span></h2>
@@ -82,7 +84,7 @@
                                     Apply Now
                                 </span>
                             </a>
-                            <a class="btn btn--primary btn-xs-block type--uppercase" href="https://favcode54.org/about" style="background-color: #e1b12c; border-color:#e1b12c">
+                            <a class="btn btn--primary btn-xs-block type--uppercase" href="https://favcode54.org/about" style="background-color: #e1b12c; border-color:#e1b12c; ">
                                 <span class="btn__text">
                                     Learn More
                                 </span>
